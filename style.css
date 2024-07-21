@@ -1,0 +1,82 @@
+body{
+    box-sizing: border-box;
+    background-color: black;
+    font-family: Helvetica, Arial,  sans-serif;
+    text-align: center;
+}
+
+#container{
+    margin: auto;
+    text-align: start;
+    max-width: 800px;
+    background-image: linear-gradient(to bottom right, #323232, #232323, #121212) ;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px hsla(0, 0%, 44%, 0.3);
+    color: white;
+}
+
+h1{
+    font-size: 2em;
+    color: hsl(9, 100%, 36%);
+    margin: 0px auto 25px auto;
+}
+
+#myForm{
+    font-size: 1.5rem;
+}
+
+.checkbox-inputs{
+    width: 18px;
+    height: 18px;
+}
+
+.label-check, .checkbox-inputs{
+    margin-bottom: 20px;
+}
+
+#passwordLength{
+    width: 100px;
+    padding: 7px;
+    border-radius: 6px;
+    margin: 5px;
+    font-size: 1.1rem;
+}
+
+#passwordLength::-webkit-outer-spin-button,
+#passwordLength::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+/* Firefox */
+#passwordLength[type=number] {
+  -moz-appearance: textfield;
+  
+}
+
+#myBtn{
+    font-size: 1.5rem;
+    background-color: rgb(45, 84, 255);
+    cursor: pointer;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    align-self: center;
+    margin: 8px 0px;
+}
+
+#myBtn:hover{
+    background-color: rgb(81, 113, 255);
+}
+
+#myBtn:active{
+    background-color: rgb(126, 150, 255);
+}
+
+#password{
+    font-size: 1em;
+    color: green;
+    font-weight: bold;
+    max-width: 800px;
+}
